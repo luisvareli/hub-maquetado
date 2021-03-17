@@ -1,0 +1,308 @@
+@font-face {
+    font-family: Gill Sans Bold;
+    src: local("Gill Sans Bold");
+    src: url('../fonts/Gill Sans Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gill Sans Medium';
+    src: local("Gill Sans Medium");
+    src: url('../fonts/Gill Sans Medium.otf');
+
+}
+
+
+
+.body {
+    margin: 0;
+    /*font-family: "Gill Sans Bold";*/
+}
+
+.header {
+    color: black;
+    display: flex;
+    height: 240px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Gill Sans Medium";
+    font-size: 15px;
+
+
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.container {
+    /*border: 1px solid red;*/
+    width: 100%;
+    display: inherit;
+    height: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    /*margin: 0px 46px 0px 46px;*/
+    margin: 0 auto;
+}
+
+/*.container-form {*/
+/*    border: 1px solid red;*/
+/*    width: 100%;*/
+/*    display: inherit;*/
+/*    height: inherit;*/
+/*    align-items: inherit;*/
+/*    justify-content: inherit;*/
+/*    flex-wrap: inherit;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flexbox {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+}
+
+.figure {
+    margin: 0;
+}
+
+.hero {
+    height: 560px;
+    /*background-image: url('../images/pexels-karolina-grabowska-4968391.png');*/
+    background-color: #eac24b;
+    /*background-size: 980px 560px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position-x: right;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 46px 0px 46px;
+}
+
+.hero-image {
+    height: 560px;
+    width: 980px;
+}
+
+.button-email {
+    border-radius: 8px;
+    color: #eac24b;
+    background-color: black;
+    border:none;
+    cursor:pointer;
+    width: 190px;
+    height: 70px;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 15px;
+}
+
+.imageContainer {
+    margin-left: 1030px;
+}
+
+.project {
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-description {
+    float: left;
+    margin-left: 400px;
+    font-size: 64px;
+    font-family: "Gill Sans Medium";
+    text-align: end;
+}
+
+.button-img {
+    border-radius: 8px;
+    color: #eac24b;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    width: 190px;
+    height: 70px;
+    font-size: 35px;
+    /*position: absolute;*/
+}
+
+.hero-coupons-title {
+    text-align: center;
+    font-size: 64px;
+    font-family: "Gill Sans Medium";
+    /*margin-right: 1em;*/
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-content: center;
+}
+
+.flex-item {
+    width: 40%;
+    height: 100px;
+    margin: 10px;
+    order: 1;
+}
+
+{
+    box-sizing: border-box;
+}
+
+.columns {
+    width: 17em;
+    padding: 1em;
+}
+
+.price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 25px;
+    background-color: #e8e8e8;
+    font-family: "Gill Sans Medium";
+
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .plan {
+    /*background-color: #e8e8e8;*/
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 35px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family: "Gill Sans Medium";
+}
+
+.price-tag {
+    text-align: justify;
+    margin-left: 35px;
+    font-family: "Gill Sans Medium";
+}
+
+.price li {
+    padding: 10px;
+}
+
+.price .grey {
+    /*background-color: #eee;*/
+    font-size: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: 2em;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container-plan {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #edc34d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bank_icons {
+    margin-top: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_image_container {
+    padding-left: 5em;
+    padding-top: 5em;
+}
+
+.hero-description {
+    text-align: justify;
+    margin-left: 43em;
+    margin-bottom: 2em;
+    font-size: 20px;
+    font-family: "Gill Sans Medium";
+    font-weight: normal;
+}
+
+.plan-text {
+    text-align: justify;
+    margin-left: 35px;
+    color: white;
+}
+
+.form-email-text {
+    font-family: "Gill Sans Bold";
+    font-weight: normal;
+}
+
+.footer-text {
+    font-family: "Gill Sans Medium";
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.copyright-text {
+    font-family: "Gill Sans Medium";
+    font-weight: normal;
+}
+
+.container-plans {
+    text-align: justify;
+    margin-left: 35px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+
+
