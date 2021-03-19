@@ -220,7 +220,7 @@ header img{
 }
 /* Ads */
 .disclaimer_container {
-    padding: 4em;
+    padding: 1em;
 }
 .disclaimer_title_container {
     font-size: 2em;
@@ -229,9 +229,8 @@ header img{
     margin: 0;
     font-size: 1.4em;
     text-align: justify;
+    font-family: "Gill Sans Medium";
 }
-
-
 
 .disclaimer_title {
     margin: 0;
@@ -291,9 +290,6 @@ header img{
 @media screen and (max-width: 768px){
     .bank_icons_responsive {
         display: revert;
-    }
-    .bank_icons {
-        display: none;
     }
     .class-container_plan_description {
         font-size: 1em;
@@ -358,6 +354,7 @@ header img{
     .bank_icons_responsive {
         display: none;
     }
+
 }
 
 @media screen and (max-width: 767px){
@@ -426,4 +423,41 @@ header img{
         margin: 0 0.3em;
     }
 
+    .hero-coupons-title {
+        font-size: 29px;
+    }
+    .disclaimer_title {
+        font-size: 29px;
+    }
+
+    .disclaimer_container {
+        padding: 2em;
+    }
+
+    .footer_image_container {
+        padding-left: 2em;
+        padding-top: 3em;
+    }
+
+    .form-email-text {
+        font-size: 19px !important;
+    }
+
+    .container-plan {
+        padding: 2em;
+    }
+
+    .disclaimer_description {
+        font-size: 1em;
+    }
+
+    .social{
+        margin-bottom: 4em;
+    }
+
+    .bank_icons {
+        position: absolute;
+        margin-top: 30em;
+        margin-left: 2.5em;
+    }
 }
