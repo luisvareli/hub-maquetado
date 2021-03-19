@@ -287,82 +287,19 @@ header img{
     display: none;
 }
 
-@media screen and (max-width: 768px){
-    .bank_icons_responsive {
-        display: revert;
-    }
+@media screen and (max-width: 767px){
     .class-container_plan_description {
-        font-size: 1em;
-    }
-    .container_plan_card{
+           font-size: 1em;
+        }
+    .container_plan_card {
         padding: 1em;
     }
-    .hero_container{
-        flex-direction: column-reverse;
-    }
-    .hero_container_form {
-        width: 94%;
-        padding: 2em 0;
-    }
-
-    .burguer-button{
-        display: block;
-    }
-    .header_items{
-        display: none;
-    }
-    .menu_movile{
-        position: fixed;
-        background-color: #eac24b;
-        z-index: 3;
-        width: 100vw;
-        left: -100vw;
-        bottom: 0%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: .5s;
-        text-align: center;
-        height: 100vh;
-        opacity: 0.9;
-    }
-    .menu_movile.is_active{
-        left: 0;
-        height: 100vh;
-    }
-    .menu_movile li{
-        text-decoration: none;
-        list-style: none;
-        color: white;
-        font-size: 2em;
-        padding: 0.3em;
-        font-weight: lighter;
-    }
-    .burger_inicio {
-        text-decoration: none;
-    }
-    .burger_func {
-        text-decoration: none;
-    }
-    .burger_plan {
-        text-decoration: none;
-    }
-    .burger_contact {
-        text-decoration: none;
-    }
-
-    .bank_icons_responsive {
-        display: none;
-    }
-
-}
-
-@media screen and (max-width: 767px){
-    .container-plan{
+    .container-plan {
         display: block;
         justify-content: center;
+        padding: 2em;
     }
-    .container_plan_card{
+    .container_plan_card {
         margin: 2em 0;
         width: 86%;
     }
@@ -373,13 +310,13 @@ header img{
         width: 94%;
         padding: 2em 0;
     }
-    .burguer-button{
+    .burguer-button {
         display: block;
     }
-    .header_items{
+    .header_items {
         display: none;
     }
-    .menu_movile{
+    .menu_movile {
         position: fixed;
         background-color: #eac24b;
         z-index: 3;
@@ -441,10 +378,6 @@ header img{
 
     .form-email-text {
         font-size: 19px !important;
-    }
-
-    .container-plan {
-        padding: 2em;
     }
 
     .disclaimer_description {
